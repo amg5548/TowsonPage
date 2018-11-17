@@ -1,0 +1,99 @@
+header {
+	background-color: #ffcc00;
+	padding: 10px;
+}
+body {
+	background-color: black;
+}
+#div {
+	background-color: #b7b7b7;
+	padding: 10px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+#div2 {
+	background-color: white;
+	padding: 50px;
+}
+@font-face {
+	font-family: sabonImport;
+	src: url('SabonLTStd-Roman.otf');
+}
+@font-face {
+	font-family: frutigerImport;
+	src: url('FrutigerLTStd-Light.otf');
+}
+#buildingHeader {
+	position: relative;
+	top: -50px;
+	font-size: 60px;
+	font-family: sabonImport;
+}
+#yorkRoad {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+	top: -50px;
+}
+#roomHeader {
+	position: relative;
+	top: -30px;
+	font-size: 45px;
+	font-family: frutigerImport;
+}
+#row {
+	position: relative;
+	top: -30px;
+	margin-left: 60px;
+}
+#row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.column {
+	float: left;
+	width: 25%;
+}
+li {
+	list-style-image: url(check.png);
+}
+.x {
+	list-style-image: url(x.png);
+}
+span {
+	position: relative;
+	top: -12px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sabonImport;
+}
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+a:hover {
+	border-bottom: 2px solid #ffcc00;
+}
+#legalBlurb {
+	position: relative;
+	top: 75px;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #b7b7b7;
+	font-family: frutigerImport;
+}
+#phoneNumber {
+	position: relative;
+	top: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: frutigerImport;
+}
